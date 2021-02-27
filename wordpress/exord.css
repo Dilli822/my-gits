@@ -1,0 +1,252 @@
+
+body{
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#top-h1-brief{
+  text-align: center;  
+  font-size: 1.25rem;
+  opacity: 0.5;
+}
+
+.nav-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nav-header ul li{
+    display: inline-block;
+    font-weight: bold;
+   
+}
+
+.nav-header ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+    padding: 15px;   
+}
+
+.social-media-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+}
+
+.social-media-icons a i{
+    padding: 15px;
+    font-size: 2rem;
+    color:black;
+}
+
+.banner{
+    background: url("https://images.pexels.com/photos/914128/pexels-photo-914128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding: 135px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+
+}
+h2{
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    margin: 220px 0px;
+}
+
+.banner-paragraphs{
+    color:rgb(230, 210, 210);
+    text-align: center;
+    letter-spacing: 5px;
+    opacity: 0.8;
+    
+}
+
+
+img{
+    max-width: 100%;
+}
+
+button.top-white-button{
+    margin: 0px  400px;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    color:rgba(255, 255, 255, 0.993);
+    background-color: green;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+button.top-white-button:hover{
+    transform: scale(1.3);
+}
+
+@media only screen and (max-width: 800px){
+    .banner{
+        display: flex;
+        flex-wrap: wrap;
+    }}
+
+@media only screen and (max-width: 800px){
+    h2{
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    margin: 0px;
+}}
+@media only screen and (max-width: 800px){
+    button.top-white-button{
+ margin: 0px 50px;
+    }}
+
+
+.first-explore-wrap{
+display: flex;
+flex-wrap: wrap;
+border: 1px solid;
+}
+
+.left-first-explore-wrap{
+    background: url("https://images.squarespace-cdn.com/content/v1/5a3bb03b4c326d76de73ddaa/1562076624537-TEEGNN72JWED0NTR4MW3/ke17ZwdGBToddI8pDm48kLXCf88_9uNTKXkq27cF4sB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmzUsryC7riGV7bTeYhg5Sep4Y8p3OCJVqs3FfNTLch3O2M0DsfUdwheg190rC2-Re/The_Common_Wanderer_best_things_to_do_pokhara_nepal-28.jpg");
+    background-size: 100% 100%;
+    height: 450px;
+    width: 500px;
+    margin: 50px;
+}
+
+.right-first-explore-wrap{
+    padding: 35px;
+    height: 400px;
+    width: 400px;
+}
+
+h3{
+    margin-top: 180px;
+    padding: 0px;
+}
+
+p.explore-world-paragraph{
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 2px;
+}
+
+button.green-button{
+    margin: 20px 0px;
+    padding: 10px;
+    font-weight: 600;
+    border: 1px solid green;
+    border-radius: 5px;
+    color:rgba(255, 255, 255, 0.993);
+    background-color: green;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.second-wrap{
+    display: flex;
+    flex-wrap: wrap;
+border: 1px solid;
+
+}
+
+.left-second-wrap{
+    background:black;
+    height: 400px;
+    width: 600px;
+    color:white;
+}
+.right-discover-second-wrap{
+    background: url("https://images.pexels.com/photos/2856273/pexels-photo-2856273.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100% 100%;
+    height: 400px;
+    width: 500px;
+}
+
+.grid-container-featured-places{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid;
+}
+.grid-left-box{
+    border: 1px solid;   
+}
+.grid-entire-right-box{
+    font-size: 2rem;
+    display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto auto;   
+}
+.grid-inner-featured-box{
+    align-items: flex-start;
+    border: 1px solid;
+}
+
+.review-wrap{
+    display: flex;
+border: 1px solid;
+
+}
+.left-review-wrap{
+    background:black;
+    height: 400px;
+    width: 500px;
+    color:white;
+}
+.right-review-wrap{
+    background: url("https://images.pexels.com/photos/2856273/pexels-photo-2856273.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100% 100%;
+    height: 400px;
+    width: 500px;
+}
+article{
+    text-align: center;
+}
+
+.featured-places-box-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-feauted-place{
+    border: 1px solid;
+}
+.middle-feauted-place{
+    border: 1px solid;
+}
+.right-feauted-place{
+    border: 1px solid;
+}
+.foot-banner{
+    background-color: black;
+    color:white;
+}
+h4{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+p.p-footer-paragraph{
+    text-align: center;
+}
+button.foot-button{
+ margin: 0px  550px;
+}
+.foot-notes{
+    padding: 20px;
+}
