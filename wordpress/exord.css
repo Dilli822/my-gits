@@ -320,6 +320,7 @@ aside{
 }
 article{
     text-align: center;
+    padding: 45px;
 }
 
 .featured-places-box-wrap{
@@ -329,8 +330,8 @@ article{
     align-items: center;
 }
 .left-feauted-place{
-    border: 1px solid;
-    height: 500px;
+    border: px solid;
+    height: 550px;
     width: 350px;
 }
 
@@ -353,35 +354,52 @@ button.tour-price{
 }
 
 .middle-feauted-place{
-    border: 1px solid;
-    height: 500px;
+    border: px solid;
+    height: 550px;
     width: 350px;
 }
 .right-feauted-place{
-    border: 1px solid;
-    height: 500px;
+    border: px solid;
+    height: 550px;
     width: 350px;
 }
+
 .foot-banner{
     background-color: black;
     color:white;
+    padding: 25px;
 }
+
 h4{
     text-align: center;
+    font-weight: 550;
+    margin: 0px;
 }
 
 h5{
     text-align: center;
+    font-weight: normal;
+    font-size: 2rem;
 }
+
 p.p-footer-paragraph{
     text-align: center;
+    font-size: 1.2rem;
+    opacity: 0.85;
 }
+
 button.foot-button{
- margin: 0px  550px;
+    font-weight: bold;
+    margin-left: 525px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+
 }
+
 @media only screen and (max-width: 800px){
     button.foot-button{
-        margin: 0px  50px;
+        margin: 0px  130px;
        } 
 }
 .foot-notes{
