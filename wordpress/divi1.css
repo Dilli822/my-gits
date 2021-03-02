@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.head-wrap{
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0 0, 75% 0%, 100% 0, 100% 47%, 30% 76%, 0 69%);
+
+}
+.content-box{
+    text-align: center;
+    font-size: 5rem;
+    height: 50rem;
+    width: 100%;
+    border: 1px solid;   
+}
+.advertisement-wrap{
+    width: 100%;
+    height: auto;
+clip-path: polygon(28% 19%, 100% 0, 100% 0, 100% 100%, 0 100%, 0 60%);}
+
+.connection-wrap{
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0 0, 79% 0, 73% 46%, 0 95%, 0 60%);
+}
+.feautred-box{
+    text-align: center;
+    font-size: 5rem;
+    height: 25rem;
+    width: 100%;
+    border: 1px solid;   
+}
+
+footer{
+    text-align: center;
+    font-size: 5rem;
+    height: 25rem;
+    width: 100%;
+    border: 1px solid;
+}
