@@ -3,7 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+body{
+    color:Red;
+    font-size: 1rem;
+}
 
 .head-wrap{
     width: 100%;
